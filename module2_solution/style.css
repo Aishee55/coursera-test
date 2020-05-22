@@ -1,17 +1,16 @@
 
 body {
-  background-color: white ;
+  background-color: #c7dea3;
   font-size: 120%;
 }
 *{
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: "Times New Roman", Times, serif;
 }
 section {
     border: 1px solid black;
     background-color: darkgray;
-    margin: 20px;
-    position: relative;
+    margin: 10px;
 }
 section.box{
     background-color: #BDBDBD;
@@ -24,9 +23,6 @@ section.box2{
 }
 section>p{
     padding: 40px 15px 15px 15px;
-    margin: 15px 10px 10px 10px;
-    position: relative;
-    /*text-align: justify;*/
 }
 
 h1{
@@ -34,28 +30,27 @@ h1{
     
 }
 h2{
-     font-size: larger;
-    padding-top: 10px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    margin: 0px;
-    border: 1px solid black;
-    border-color: black;
-    width: 90px;
-    border-style: none none solid black;
-    float: right;
+  float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 150px;
     text-align: center;
+    font-style: Times;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
 }
-h2.color{
+h2.title{
   background-color: #195977;
   color: #ffffff;
 }
-h2.color1{
+h2.title1{
   background-color: #73c34a;
   color: black;
 }
-h2.color2{
+h2.title2{
   background-color: #504146;
   color: #ffffff;
 }
